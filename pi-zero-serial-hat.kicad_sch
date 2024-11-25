@@ -165,21 +165,21 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
+			(property "Value" "Screw_Terminal_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -205,7 +205,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -232,9 +232,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Screw_Terminal_01x03_1_1"
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 3.81)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -281,6 +281,18 @@
 				)
 				(polyline
 					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 					)
 					(stroke
@@ -303,6 +315,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 0)
 					(radius 0.635)
@@ -314,8 +338,19 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -333,7 +368,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -343,6 +378,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2128,6 +2181,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 93.98) (xy 160.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63a971b-1412-4b48-8165-916eff41c4af")
+	)
+	(wire
+		(pts
 			(xy 106.68 114.3) (xy 111.76 114.3)
 		)
 		(stroke
@@ -2406,6 +2469,28 @@
 		)
 		(uuid "fa602cfe-a41d-4dbc-8580-6ff0c2cf8c1c")
 	)
+	(label "-"
+		(at 55.88 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "030a904f-feb1-4ca8-96b6-01d2ec35026f")
+	)
+	(label "+"
+		(at 55.88 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abf6acdd-e870-4b01-8771-893fa0af16f9")
+	)
 	(global_label "TXD"
 		(shape input)
 		(at 25.4 104.14 180)
@@ -2520,7 +2605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
+		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 165.1 91.44 0)
 		(mirror x)
 		(unit 1)
@@ -2530,22 +2615,22 @@
 		(dnp no)
 		(uuid "0b9c50b5-bd03-49cb-8d3b-4b81f515a1f2")
 		(property "Reference" "J2"
-			(at 165.1 93.98 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 178.308 89.662 0)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 178.308 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Custom Footprints:CONN_ED555&slash_2DS_OST"
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00013_1x03_P5.00mm_Horizontal"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -2563,7 +2648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -2577,6 +2662,9 @@
 		)
 		(pin "1"
 			(uuid "0f15d640-fba4-4e2b-84c5-c9498f914014")
+		)
+		(pin "3"
+			(uuid "75096320-1574-4e9f-b66e-a53ecd2a48bd")
 		)
 		(instances
 			(project ""
@@ -3007,6 +3095,72 @@
 			(project "pi-zero-serial-hat"
 				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "351a92c0-a157-436d-81bb-44c3281752e2")
+		(property "Reference" "#PWR08"
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68402385-763d-4588-908c-95bac08abfe6")
+		)
+		(instances
+			(project "pi-zero-serial-hat"
+				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

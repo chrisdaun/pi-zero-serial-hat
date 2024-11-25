@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 0.3
+          "drill": 3.0,
+          "height": 2.7,
+          "width": 2.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -471,6 +471,23 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.5,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": ".5 mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -480,11 +497,11 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": ".5 mm",
         "pattern": "+3V3"
       },
       {
-        "netclass": "Default",
+        "netclass": ".5 mm",
         "pattern": "+5V"
       },
       {
@@ -602,6 +619,14 @@
       {
         "netclass": "Default",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/-"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/+"
       }
     ]
   },
