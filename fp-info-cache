@@ -1,4 +1,4 @@
-24251889552009866
+24253622149830212
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54802,6 +54802,13 @@ ESP32-C3 Super Micro
 0
 16
 16
+Custom Footprints
+IND_BOURNS_SRR1208
+
+SRR1208-331KL 
+0
+2
+2
 Custom Footprints
 JQC-3FF-S-Z
 relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
