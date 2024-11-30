@@ -6199,6 +6199,28 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 86.36 181.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42836939-29bd-43ca-b7ac-5c563d99daa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 175.4085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VIN"
 		(shape input)
 		(at 41.91 184.15 0)
@@ -6245,7 +6267,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 86.36 181.61 0)
+		(at 88.9 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6255,7 +6277,7 @@
 		)
 		(uuid "52e4b496-91c9-448e-900b-c4a5ea296efb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5615 181.61 0)
+			(at 95.1015 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,6 +10468,74 @@
 			(project ""
 				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 86.36 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6346d16-ac1f-4897-a5d7-e8688c3dbe12")
+		(property "Reference" "J4"
+			(at 83.312 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 83.82 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 86.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 86.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df868789-97ee-412b-bdb6-0a9e604e2850")
+		)
+		(pin "2"
+			(uuid "27b1b4d3-a6d8-4ba2-b5a5-115a651902e0")
+		)
+		(instances
+			(project "pi-zero-serial-hat"
+				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
+					(reference "J4")
 					(unit 1)
 				)
 			)
