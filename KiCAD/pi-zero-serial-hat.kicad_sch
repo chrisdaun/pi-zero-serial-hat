@@ -165,207 +165,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -4134,6 +3933,12 @@
 		(uuid "26b59cbc-370b-45d5-8dfd-b78018b92f63")
 	)
 	(junction
+		(at 121.92 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2da06ea3-91b0-4452-b779-674a91f507e8")
+	)
+	(junction
 		(at 121.92 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4144,12 +3949,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cabbe78-3439-4ba8-b8bc-ca0b926305a2")
-	)
-	(junction
-		(at 110.49 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cafe5f7-8556-497b-98a7-6ff2ac4995ab")
 	)
 	(junction
 		(at 147.32 161.29)
@@ -4372,6 +4171,10 @@
 		(uuid "0f9cd5e1-2a58-4293-83d5-cf84f83e2ac1")
 	)
 	(no_connect
+		(at 209.55 80.01)
+		(uuid "169c5042-f1f3-412d-9f2a-f40481bbfadb")
+	)
+	(no_connect
 		(at 209.55 97.79)
 		(uuid "199c2600-caf1-466c-a0b1-8a52a575dac3")
 	)
@@ -4572,16 +4375,6 @@
 			(type default)
 		)
 		(uuid "109e4823-816d-4ea9-bb21-ecfb77d80f4c")
-	)
-	(wire
-		(pts
-			(xy 120.65 48.26) (xy 120.65 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12a424e7-3e5b-4167-bbc3-05f567b332fa")
 	)
 	(wire
 		(pts
@@ -5185,6 +4978,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 60.96) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77de28fe-768e-427c-bcee-8ba540771d10")
+	)
+	(wire
+		(pts
 			(xy 38.1 161.29) (xy 147.32 161.29)
 		)
 		(stroke
@@ -5242,16 +5045,6 @@
 			(type default)
 		)
 		(uuid "8452a5d9-3ca6-4981-98dd-c30d56af2cdc")
-	)
-	(wire
-		(pts
-			(xy 110.49 66.04) (xy 113.03 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "855f997b-b9b5-445f-9902-f1c86fc36d0d")
 	)
 	(wire
 		(pts
@@ -5795,6 +5588,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 48.26) (xy 120.65 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e392059c-f9ab-448c-840a-583d99bd68f9")
+	)
+	(wire
+		(pts
 			(xy 73.66 85.09) (xy 68.58 85.09)
 		)
 		(stroke
@@ -5905,6 +5708,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 53.34) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68a056a-c902-4288-8a53-80704b3556d2")
+	)
+	(wire
+		(pts
 			(xy 181.61 138.43) (xy 181.61 142.24)
 		)
 		(stroke
@@ -5993,7 +5806,7 @@
 		)
 		(uuid "fc795ff8-ec42-444b-8441-1337b1805746")
 	)
-	(text "Termination resister\n(Don't populate)"
+	(text "Termination enable"
 		(exclude_from_sim no)
 		(at 122.174 61.214 0)
 		(effects
@@ -6022,28 +5835,6 @@
 			)
 		)
 		(uuid "fa602cfe-a41d-4dbc-8580-6ff0c2cf8c1c")
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 209.55 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05088850-bafe-4d3e-a356-32094e48b273")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.1066 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "GND"
 		(shape input)
@@ -6089,28 +5880,6 @@
 			)
 		)
 	)
-	(global_label "+5V IN"
-		(shape input)
-		(at 176.53 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1927c1c8-182f-4516-bf85-4e0021d17309")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.6344 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TXD"
 		(shape input)
 		(at 24.13 69.85 180)
@@ -6129,28 +5898,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 176.53 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "27cd8073-f138-49df-bee9-9be0690c66cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.9734 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6344,28 +6091,6 @@
 		(uuid "701316f6-66ea-445a-9fee-ee0f44220c14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.0995 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape input)
-		(at 176.53 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "726474ae-255b-4caa-a711-2af7a4c03fa3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.7315 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +6528,7 @@
 		(dnp no)
 		(uuid "01a5aaff-8165-4392-aba9-b4e69b5084ab")
 		(property "Reference" "C8"
-			(at 116.332 123.19 0)
+			(at 117.348 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,8 +6536,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 118.872 128.27 0)
+		(property "Value" "100nF"
+			(at 121.158 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,6 +6564,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
 			(at 120.65 125.73 0)
 			(effects
 				(font
@@ -6879,7 +6631,7 @@
 				)
 			)
 		)
-		(property "Value" "2R2"
+		(property "Value" "2.2kΩ"
 			(at 130.81 139.7 90)
 			(effects
 				(font
@@ -6906,6 +6658,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 2.2kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4190"
 			(at 130.81 139.7 0)
 			(effects
 				(font
@@ -6947,7 +6726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10R0"
+		(property "Value" "10Ω"
 			(at 142.24 39.37 90)
 			(effects
 				(font
@@ -6983,6 +6762,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17415"
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc9efd67-5ddd-4de3-8d97-15f8899473f4")
 		)
@@ -7006,7 +6812,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0b9c50b5-bd03-49cb-8d3b-4b81f515a1f2")
 		(property "Reference" "J2"
 			(at 163.83 59.69 0)
@@ -7051,6 +6857,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 163.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 163.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a11b2a83-96a4-4898-a66f-509a1870d924")
 		)
@@ -7076,7 +6909,7 @@
 		(dnp no)
 		(uuid "1ac9b390-2f98-4f4f-b5bd-50f2b4061177")
 		(property "Reference" "C7_1"
-			(at 63.246 151.384 0)
+			(at 69.088 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,8 +6917,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 72.39 149.8599 0)
+		(property "Value" "2.2nF"
+			(at 69.85 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,6 +6945,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "50V 2.2nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1604"
 			(at 68.58 148.59 0)
 			(effects
 				(font
@@ -7154,7 +7014,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10R0"
+		(property "Value" "10Ω"
 			(at 142.24 73.66 90)
 			(effects
 				(font
@@ -7190,6 +7050,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17415"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "04036d99-b546-4421-84b9-360c5d7d3563")
 		)
@@ -7212,7 +7099,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1efe6481-00fc-4df0-8614-3932ce7e9d75")
 		(property "Reference" "H2"
@@ -7260,6 +7147,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 243.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 243.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 243.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebe138fc-214c-44de-aa59-3f6dda6a3ec2")
 		)
@@ -7267,73 +7181,6 @@
 			(project "pi-zero-serial-hat"
 				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.84 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22dad454-ee25-487a-beb4-23d6f9116667")
-		(property "Reference" "R16"
-			(at 117.094 68.834 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120"
-			(at 117.094 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.84 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93267d81-88a5-46d0-ae56-7c8d48bb53ee")
-		)
-		(pin "2"
-			(uuid "6b595c3c-0e15-430f-8814-3796e0079bcb")
-		)
-		(instances
-			(project "pi-zero-serial-hat"
-				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7411,6 +7258,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C46293"
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4edb97b-2a4e-47c1-9bc4-ac68cb813d90")
 		)
@@ -7444,8 +7318,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 181.102 134.874 0)
+		(property "Value" "200kΩ"
+			(at 181.61 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,6 +7354,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 200kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25811"
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcf5232a-4491-43b7-9ecd-43257026d580")
 		)
@@ -7503,10 +7404,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a98e647-3364-43ba-b760-77e78565376d")
 		(property "Reference" "C12"
-			(at 193.04 133.3499 0)
+			(at 190.246 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,8 +7414,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 193.04 135.8899 0)
+		(property "Value" "1nF"
+			(at 190.5 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,6 +7450,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "50V 1nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1588"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c17f0733-d8de-497d-b3af-a0afaf08bc40")
 		)
@@ -7572,7 +7499,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2b83a0b6-88b8-4488-8c88-f2554bda35e0")
 		(property "Reference" "JP1"
 			(at 35.56 72.39 0)
@@ -7610,6 +7537,33 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 35.56 69.85 0)
 			(effects
 				(font
@@ -7832,77 +7786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 171.45 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39695515-8027-4cf9-a400-3bbe3d70a20d")
-		(property "Reference" "J6"
-			(at 172.085 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 172.085 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 171.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 171.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec0929a8-ac2e-4e64-be6b-417c5fc3a7cc")
-		)
-		(pin "3"
-			(uuid "46a30146-2e1c-403e-94d9-a4295f124e84")
-		)
-		(pin "1"
-			(uuid "53899988-e435-4452-adbe-26aed48b7ebf")
-		)
-		(instances
-			(project ""
-				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 71.12 181.61 90)
 		(unit 1)
@@ -7920,8 +7803,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "018"
-			(at 72.898 181.356 90)
+		(property "Value" "1kΩ"
+			(at 72.898 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,6 +7839,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" " 100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C21190"
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80e233cb-e6f2-457f-9459-30db3f45cf66")
 		)
@@ -7978,7 +7888,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3d4d621e-929a-45ba-b941-92f94215f5ed")
 		(property "Reference" "U2"
@@ -8017,6 +7927,33 @@
 		)
 		(property "Description" "DC/DC Step Down IC TSSOP-10"
 			(at 102.87 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 102.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 102.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 102.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8008,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e479e46-a02a-4bde-805a-135fdf4b5306")
 		(property "Reference" "R2"
 			(at 71.12 139.6999 0)
@@ -8082,8 +8018,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "473"
-			(at 71.12 142.2399 0)
+		(property "Value" "47kΩ"
+			(at 68.58 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,6 +8046,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 47kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 68.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 68.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25819"
 			(at 68.58 140.97 0)
 			(effects
 				(font
@@ -8217,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Value" "472"
+		(property "Value" "4.7kΩ"
 			(at 90.17 95.25 90)
 			(effects
 				(font
@@ -8244,6 +8207,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23162"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -8284,7 +8274,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "20Ω"
 			(at 63.5 69.85 90)
 			(effects
 				(font
@@ -8311,6 +8301,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22950"
 			(at 63.5 69.85 0)
 			(effects
 				(font
@@ -8351,7 +8368,7 @@
 				)
 			)
 		)
-		(property "Value" "4R7"
+		(property "Value" "4.7kΩ"
 			(at 130.556 129.54 90)
 			(effects
 				(font
@@ -8378,6 +8395,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23162"
 			(at 130.81 129.54 0)
 			(effects
 				(font
@@ -8418,7 +8462,7 @@
 				)
 			)
 		)
-		(property "Value" "2R2"
+		(property "Value" "2.2kΩ"
 			(at 130.556 134.62 90)
 			(effects
 				(font
@@ -8453,6 +8497,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 2.2kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4190"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c83e86f-4f13-40f6-9a95-10ced1d6c05b")
 		)
@@ -8476,10 +8547,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "574903c7-ddd5-47a0-b8ba-ed33ead771b8")
 		(property "Reference" "C11"
-			(at 180.34 140.9699 0)
+			(at 174.752 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,8 +8557,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 180.34 143.5099 0)
+		(property "Value" "100nF"
+			(at 173.482 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,6 +8585,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
 			(at 176.53 142.24 0)
 			(effects
 				(font
@@ -8582,6 +8679,33 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
 			(at 77.47 95.25 0)
 			(effects
 				(font
@@ -8675,6 +8799,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C78395"
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24dcafe8-88fc-4e0e-b501-88a76abfbcd9")
 		)
@@ -8707,7 +8858,7 @@
 				)
 			)
 		)
-		(property "Value" "121"
+		(property "Value" "120Ω"
 			(at 117.094 48.514 90)
 			(effects
 				(font
@@ -8742,6 +8893,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22787"
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "880878cc-9efb-4ed1-ba9e-fe4775f77c55")
 		)
@@ -8764,7 +8942,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5fee2164-b560-4c02-88ac-0f8d245dc6cd")
 		(property "Reference" "J3"
 			(at 49.022 64.262 0)
@@ -8810,6 +8988,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 45.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 45.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 45.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b430c383-bd4e-434c-8bac-5a1bb6d2b83a")
 		)
@@ -8833,7 +9038,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "601a6fe0-c9c1-4563-b88f-401fedeb3faf")
 		(property "Reference" "R13_1"
 			(at 156.21 138.4299 0)
@@ -8844,8 +9048,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4R7"
-			(at 156.21 140.9699 0)
+		(property "Value" "4.7kΩ"
+			(at 153.67 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,6 +9076,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23162"
 			(at 153.67 139.7 0)
 			(effects
 				(font
@@ -8912,7 +9143,7 @@
 				)
 			)
 		)
-		(property "Value" "472"
+		(property "Value" "4.7kΩ"
 			(at 118.364 80.264 90)
 			(effects
 				(font
@@ -8939,6 +9170,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23162"
 			(at 118.11 80.01 0)
 			(effects
 				(font
@@ -8980,8 +9238,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 180.848 150.114 0)
+		(property "Value" "47kΩ"
+			(at 181.61 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,6 +9266,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25819"
 			(at 181.61 149.86 0)
 			(effects
 				(font
@@ -9048,7 +9333,7 @@
 				)
 			)
 		)
-		(property "Value" "472"
+		(property "Value" "4.7kΩ"
 			(at 118.364 39.624 90)
 			(effects
 				(font
@@ -9075,6 +9360,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23162"
 			(at 118.11 39.37 0)
 			(effects
 				(font
@@ -9144,6 +9456,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C143342"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -9258,7 +9597,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "833620be-b407-4e4c-8d2f-9aa700ae3d75")
 		(property "Reference" "JP2"
 			(at 35.56 64.77 0)
@@ -9304,6 +9643,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f91d8458-7dfb-4c32-9550-f86779158879")
 		)
@@ -9326,7 +9692,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "833d109f-80b7-46ac-9d9d-b5230c9e560b")
 		(property "Reference" "H1"
@@ -9374,6 +9740,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 218.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 218.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 218.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97fc8da0-8652-40b4-9380-ea68868ddb06")
 		)
@@ -9393,7 +9786,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84702606-739b-499f-8011-846ae908241c")
 		(property "Reference" "H3"
@@ -9441,6 +9834,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 218.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 218.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 218.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e306164-afd4-40f0-86f8-47cd15c64e2a")
 		)
@@ -9460,7 +9880,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "933bdd89-2036-4aed-89e4-449dbdfa988e")
 		(property "Reference" "H4"
@@ -9500,6 +9920,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -9574,6 +10021,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 78.74 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 78.74 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 78.74 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ddedbcc-6cb2-4689-ac39-722d0f8774cb")
 		)
@@ -9606,7 +10080,7 @@
 				)
 			)
 		)
-		(property "Value" "X10"
+		(property "Value" "10Ω"
 			(at 50.8 116.84 90)
 			(effects
 				(font
@@ -9633,6 +10107,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±1% ±400ppm/℃ 10Ω 0603 Chip Resistor - Surface Mount ROHS"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22859"
 			(at 50.8 116.84 0)
 			(effects
 				(font
@@ -9741,7 +10242,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2nF"
 			(at 157.48 148.5899 0)
 			(effects
 				(font
@@ -9769,6 +10270,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 153.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "50V 2.2nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 153.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 153.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1604"
 			(at 153.67 147.32 0)
 			(effects
 				(font
@@ -9811,7 +10339,7 @@
 			)
 		)
 		(property "Value" "100uF 50v"
-			(at 46.736 139.192 0)
+			(at 36.576 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,6 +10374,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C59933"
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de87ca75-d438-4b40-a720-c2c0f4f6a608")
 		)
@@ -9869,10 +10424,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b8ea684e-7ce8-4f0a-bfdc-b50dc7e31d9e")
 		(property "Reference" "C6"
-			(at 63.5 139.6999 0)
+			(at 56.642 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,8 +10434,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 63.5 142.2399 0)
+		(property "Value" "15pF"
+			(at 61.214 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,6 +10462,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "50V 15pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1644"
 			(at 59.69 140.97 0)
 			(effects
 				(font
@@ -9948,7 +10529,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "20Ω"
 			(at 63.246 44.45 90)
 			(effects
 				(font
@@ -9983,6 +10564,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22950"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d8d82cd-7f7b-4ddc-b167-c726f6128ab7")
 		)
@@ -10006,10 +10614,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bc1ac28c-ab48-4215-969b-6dd953b34261")
 		(property "Reference" "C9"
-			(at 172.72 140.0809 0)
+			(at 165.608 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +10625,7 @@
 			)
 		)
 		(property "Value" "470uF 16v"
-			(at 172.72 142.6209 0)
+			(at 170.434 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,6 +10652,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 168.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 168.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 168.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C65223"
 			(at 168.91 142.24 0)
 			(effects
 				(font
@@ -10085,7 +10719,7 @@
 				)
 			)
 		)
-		(property "Value" "471"
+		(property "Value" "470Ω"
 			(at 101.6 85.09 90)
 			(effects
 				(font
@@ -10112,6 +10746,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23179"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -10154,7 +10815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100nF"
 			(at 99.06 22.8599 0)
 			(effects
 				(font
@@ -10182,6 +10843,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 95.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 95.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 95.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
 			(at 95.25 21.59 0)
 			(effects
 				(font
@@ -10289,7 +10977,7 @@
 				)
 			)
 		)
-		(property "Value" "472"
+		(property "Value" "4.7kΩ"
 			(at 90.17 85.09 90)
 			(effects
 				(font
@@ -10324,6 +11012,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23162"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9d71945-67c0-449b-bcfe-d70155ab36ea")
 		)
@@ -10349,15 +11064,15 @@
 		(dnp no)
 		(uuid "caf37526-5517-403c-8a7d-12491864b9dc")
 		(property "Reference" "C5"
-			(at 52.324 139.446 90)
+			(at 49.022 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 52.324 133.604 90)
+		(property "Value" "1uF"
+			(at 49.276 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,6 +11098,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "50V 1uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15849"
 			(at 50.8 135.89 0)
 			(effects
 				(font
@@ -10425,7 +11167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V IN"
+		(property "Value" "+5V"
 			(at 57.15 21.5899 90)
 			(effects
 				(font
@@ -10480,7 +11222,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d6346d16-ac1f-4897-a5d7-e8688c3dbe12")
 		(property "Reference" "J4"
 			(at 83.312 183.388 0)
@@ -10518,6 +11260,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 86.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 86.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 86.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 86.36 186.69 0)
 			(effects
 				(font
@@ -10614,6 +11383,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C46293"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f329827b-371a-455b-9b68-5102bb5ea26c")
 		)
@@ -10673,6 +11469,33 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -10780,7 +11603,7 @@
 				)
 			)
 		)
-		(property "Value" "202"
+		(property "Value" "2kΩ"
 			(at 101.6 95.25 90)
 			(effects
 				(font
@@ -10807,6 +11630,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22975"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -10849,7 +11699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V IN"
+		(property "Value" "+5V"
 			(at 110.49 85.09 0)
 			(effects
 				(font
@@ -10903,7 +11753,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e4ce7f42-e650-405b-85e0-eb7995edd824")
 		(property "Reference" "J1"
@@ -10941,6 +11791,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 214.63 82.55 0)
 			(effects
 				(font
@@ -11086,7 +11963,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e5e9832e-1d34-45d7-ae2e-507674783c8c")
 		(property "Reference" "J5"
 			(at 22.86 177.8 0)
@@ -11124,6 +12001,33 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 22.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 22.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 22.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 22.86 180.34 0)
 			(effects
 				(font
@@ -11337,6 +12241,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C99124"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5aecdf0-9ed4-4137-a68f-75391ff52da7")
 		)
@@ -11413,6 +12344,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C99124"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71c8460b-3513-46e2-9e80-5f496e17780c")
 		)
@@ -11449,7 +12407,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "30uH"
 			(at 161.29 127 90)
 			(effects
 				(font
@@ -11484,6 +12442,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1329353"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c48b5be-406f-4756-92bd-980f44c3fb27")
 		)
@@ -11494,6 +12479,101 @@
 			(project ""
 				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 121.92 57.15 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "fabc09db-1197-45a9-a39c-fd271cb76ccc")
+		(property "Reference" "JP3"
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 125.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "934b4e34-93b2-47b8-8edb-c511a8dea3f3")
+		)
+		(pin "1"
+			(uuid "ce4dab9c-0fe4-4753-b583-aba2147554fa")
+		)
+		(instances
+			(project "pi-zero-serial-hat"
+				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -11518,7 +12598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C106"
+		(property "Value" "10uF"
 			(at 86.36 22.8599 0)
 			(effects
 				(font
@@ -11546,6 +12626,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 82.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" ""
+			(at 82.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C110055"
 			(at 82.55 21.59 0)
 			(effects
 				(font
