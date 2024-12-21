@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|150032000|94568000|00000000-0000-0000-0000-00005c78eb08|00000000-0000-0000-0000-000000000000",
-        "unconnected_items|120092000|110768000|5033d870-c598-4f5b-bc54-e4727b344ff7|08d2c9f5-8b1c-4ba6-89a9-8faa7a650d2c"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -491,12 +488,50 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(132, 132, 132)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PH",
+        "pcb_color": "rgb(255, 157, 0)",
+        "schematic_color": "rgb(255, 215, 86)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+5V": "rgb(194, 194, 0)",
+      "GND": "rgb(132, 132, 132)",
+      "VIN": "rgb(255, 153, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -620,7 +655,7 @@
         "pattern": "/ID_SD"
       },
       {
-        "netclass": "Default",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
@@ -630,6 +665,10 @@
       {
         "netclass": "Default",
         "pattern": "/+"
+      },
+      {
+        "netclass": "PH",
+        "pattern": "/D3-K"
       }
     ]
   },
