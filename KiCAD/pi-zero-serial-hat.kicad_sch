@@ -5716,6 +5716,16 @@
 		)
 		(uuid "2b9cb509-3e10-40c2-b69e-ae89a205c649")
 	)
+	(text "Setting VOUT to 5.291v\nto compensate for the\nvoltage drop accross\nthe backfeed protection\ncircuit (VSENSE = 1.221v)"
+		(exclude_from_sim no)
+		(at 175.006 141.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d6472bf-64ba-4028-b803-d9955252812c")
+	)
 	(label "PH"
 		(at 78.74 132.08 0)
 		(fields_autoplaced yes)
@@ -6668,7 +6678,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d04c24c-cf7a-44de-befc-5a007d5da109")
 		(property "Reference" "R14"
-			(at 154.94 133.3499 0)
+			(at 153.67 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,8 +6686,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kO"
-			(at 154.94 135.8899 0)
+		(property "Value" "10kΩ"
+			(at 153.67 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +8029,7 @@
 		(fields_autoplaced yes)
 		(uuid "5950d3ea-5d95-4d71-bcb9-b0a2cb65dd99")
 		(property "Reference" "R15"
-			(at 154.94 149.8599 0)
+			(at 153.67 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8027,8 +8037,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.24kO"
-			(at 154.94 152.3999 0)
+		(property "Value" "3kΩ"
+			(at 153.67 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8063,7 +8073,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C22994"
+		(property "JLCPCB Part #" "C4211"
 			(at 151.13 151.13 0)
 			(effects
 				(font
