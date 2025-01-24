@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "shorting_items|138657000|100118000|488fe2d5-5180-40ec-bdd9-4864373121e4|86be4ff5-c1ab-4858-9e9a-4bf0b8fbcaa0",
+        "shorting_items|141172000|100103000|aa319600-7c9c-44f6-8961-c9da8900f154|4e762857-8625-46ff-922e-293c766f4730",
+        "shorting_items|141172000|100103000|ab91d90c-d78d-43fd-aaa6-d82813e29669|4e762857-8625-46ff-922e-293c766f4730",
+        "solder_mask_bridge|138657000|100118000|488fe2d5-5180-40ec-bdd9-4864373121e4|86be4ff5-c1ab-4858-9e9a-4bf0b8fbcaa0",
+        "solder_mask_bridge|141172000|100103000|aa319600-7c9c-44f6-8961-c9da8900f154|4e762857-8625-46ff-922e-293c766f4730",
+        "solder_mask_bridge|141172000|100103000|ab91d90c-d78d-43fd-aaa6-d82813e29669|4e762857-8625-46ff-922e-293c766f4730"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
