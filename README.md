@@ -11,7 +11,8 @@ https://github.com/sfeakes/AqualinkD
 ## Technical stuff
 
 - Communication with the Pi happens over pins 8/10 for TX/RX
-- The board can power itself and the connected Pi from the Aqualink (9v to 21v)
+- The board can power itself and the connected Pi from the Aqualink Serial bus power.
+- The board has the same footprint as a Raspberry Pi Zero but also works on full size Pi boards (Pi 3, 4, 5 etc.)
 
 ## Where can I get one?
 
