@@ -2,7 +2,7 @@
 
 ## What is it?
 
-A Raspberry Pi HAT compatible with the Raspberry Pi Zero and similar SBCs
+A Raspberry Pi HAT compatible with Raspberry Pi and similar SBCs
 <br>
 It is purpose built for use with AqualinkD and allows you to easily connect an SBC to the Aqualink Serial bus
 <br>
