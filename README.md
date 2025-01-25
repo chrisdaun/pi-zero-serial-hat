@@ -1,4 +1,4 @@
-# AqualinkD Interface Pi-HAT v2.0
+# AqualinkD Interface Pi-HAT
 
 ## What is it?
 
