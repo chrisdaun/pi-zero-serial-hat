@@ -12027,7 +12027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
 			(at 37.7952 129.54 0)
 			(effects
 				(font
@@ -12045,7 +12045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "100uF 25V ±20% 6.3x5.4 Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 36.83 125.73 0)
 			(effects
 				(font
@@ -12054,7 +12054,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C3352"
+		(property "JLCPCB Part #" "C7469933"
 			(at 36.83 125.73 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-"Value","JLCPCB Part #","DNP","Description","Comment","Designator","Reference","Footprint"
+"Value","JLCPCB Part #","DNP","Description","Comment","Designator","Ref","Footprint"
 "TPS5430DDA","C9864","","3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8","","U2","","Package_SO:TI_SO-PowerPAD-8_ThermalVias"
 "MAX13487EESA+","C143342","","","","U1","","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 "1kΩ","C21190","","Resistor"," 100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1kΩ 0603 Chip Resistor - Surface Mount ROHS","R16","","Resistor_SMD:R_0603_1608Metric"
