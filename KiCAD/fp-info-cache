@@ -1,4 +1,4 @@
-24652368533196633
+24654107053529840
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55019,6 +55019,13 @@ Through hole socket strip THT 2x20 2.54mm double row
 0
 40
 40
+Custom Footprints
+SW_DIP_SPSTx01_Slide_9.78x3.7mm_W7.62mm_P2.54mm
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x4.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+2
+2
 Custom Footprints
 TerminalPlug_1x04_P2.54mm_Horizontal
 Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
