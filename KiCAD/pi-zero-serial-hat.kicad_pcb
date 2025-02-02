@@ -10,7 +10,7 @@
 	(title_block
 		(title "AqualinkD Interface Pi-HAT")
 		(date "2025-01-24")
-		(rev "2.0")
+		(rev "2.1")
 		(company "Christopher Daun")
 		(comment 1 "chrisdaun@gmail.com")
 	)
@@ -12966,7 +12966,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "AqualinkD Interface Pi-HAT v2.0\nDesigned by Christopher Daun"
+	(gr_text "AqualinkD Interface Pi-HAT v2.1\nDesigned by Christopher Daun"
 		(at 172.372 117.108 0)
 		(layer "B.SilkS" knockout)
 		(uuid "5d7eb6e4-4b88-4980-8b6c-d5b8c5f46e77")

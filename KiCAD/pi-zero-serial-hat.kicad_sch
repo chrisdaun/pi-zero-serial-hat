@@ -7,7 +7,7 @@
 	(title_block
 		(title "AqualinkD Interface Pi-HAT")
 		(date "2025-01-24")
-		(rev "2.0")
+		(rev "2.1")
 		(company "Christopher Daun")
 		(comment 1 "chrisdaun@gmail.com")
 	)
@@ -6737,6 +6737,15 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91e7132a-9baa-4055-86fb-771f5fea25bd")
 		)
@@ -7507,7 +7516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" " 100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 106.68 176.53 0)
 			(effects
 				(font
@@ -8080,6 +8089,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C4211"
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 3kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 158.75 143.51 0)
 			(effects
 				(font
@@ -8770,6 +8788,15 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "150V 300mW 200@10mA,5V 600mA PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e4e2ffe-c55e-4dfa-96e8-9574c45405aa")
 		)
@@ -9212,6 +9239,15 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "Step-down type Adjustable 1.221V~32.04V 3A 5.5V~36V SOIC-8-EP DC-DC Converters ROHS"
+			(at 72.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f1e76974-e73a-4b6d-b2cc-63410f2d9a68")
 		)
@@ -9395,7 +9431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "Transceiver 500Kbps 1/1 SOIC-8 RS-485 / RS-422 ICs ROHS "
 			(at 125.73 52.07 0)
 			(effects
 				(font
@@ -9726,6 +9762,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C8326"
+			(at 236.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "150V 300mW 200@10mA,5V 600mA PNP SOT-23 Bipolar (BJT) ROHS"
 			(at 236.22 40.64 0)
 			(effects
 				(font
@@ -10218,6 +10263,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15127"
+			(at 243.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "30V 4A 44mΩ@10V,4.3A 1.4W 1.3V@250uA 1 Piece P-Channel SOT-23 MOSFETs ROHS"
 			(at 243.84 30.48 0)
 			(effects
 				(font
@@ -10938,7 +10992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 127 91.44 0)
 			(effects
 				(font
