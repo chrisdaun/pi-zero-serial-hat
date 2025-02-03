@@ -9493,7 +9493,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF 50V"
+		(property "Value" "100uF 35V"
 			(at 0 4.35 180)
 			(layer "F.Fab")
 			(uuid "0f74dccd-beee-4a2f-8129-f258b56730c2")
@@ -9530,7 +9530,7 @@
 				)
 			)
 		)
-		(property "Description" "100uF 25V ±20% 6.3x5.4 Aluminum Electrolytic Capacitors - SMD ROHS"
+		(property "Description" "100uF 35V 120mA@120Hz ±20% SMD,D6.3xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9543,7 +9543,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C7469933"
+		(property "JLCPCB Part #" "C3445235"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

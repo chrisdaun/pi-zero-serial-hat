@@ -7418,7 +7418,7 @@
 		(at 153.67 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "331aa3f0-bc9c-4921-a3e6-0b07604bafd3")
@@ -12276,7 +12276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF 50V"
+		(property "Value" "100uF 35V"
 			(at 32.512 133.604 90)
 			(effects
 				(font
@@ -12303,7 +12303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100uF 25V ±20% 6.3x5.4 Aluminum Electrolytic Capacitors - SMD ROHS"
+		(property "Description" "100uF 35V 120mA@120Hz ±20% SMD,D6.3xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 36.83 125.73 0)
 			(effects
 				(font
@@ -12312,7 +12312,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C7469933"
+		(property "JLCPCB Part #" "C3445235"
 			(at 36.83 125.73 0)
 			(effects
 				(font
