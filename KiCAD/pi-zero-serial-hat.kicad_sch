@@ -12,125 +12,6 @@
 		(comment 1 "chrisdaun@gmail.com")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -4506,12 +4387,6 @@
 		(uuid "919ea787-4e25-4a85-a46f-f16a13040d93")
 	)
 	(junction
-		(at 154.94 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93f946f3-f0a9-4740-9f6a-b54b7bd5d124")
-	)
-	(junction
 		(at 107.95 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4955,6 +4830,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 49.53) (xy 161.29 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab7001d-7247-4779-bf3d-ab9467c4e1f0")
+	)
+	(wire
+		(pts
 			(xy 158.75 40.64) (xy 166.37 40.64)
 		)
 		(stroke
@@ -4962,6 +4847,16 @@
 			(type default)
 		)
 		(uuid "4acc1a02-d74b-4158-bb83-11ea0f38af4c")
+	)
+	(wire
+		(pts
+			(xy 161.29 49.53) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf218fe-a627-4a9c-b08d-b115adc2350e")
 	)
 	(wire
 		(pts
@@ -5202,16 +5097,6 @@
 			(type default)
 		)
 		(uuid "8407ea7d-4069-4e10-94a8-a22c0218e672")
-	)
-	(wire
-		(pts
-			(xy 161.29 55.88) (xy 161.29 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "887ffb59-7d59-459c-b10d-01d40951e6d0")
 	)
 	(wire
 		(pts
@@ -5555,16 +5440,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 49.53) (xy 154.94 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cef1b3e9-b3a1-43f7-950d-4bd70a2c86a8")
-	)
-	(wire
-		(pts
 			(xy 46.99 119.38) (xy 46.99 121.92)
 		)
 		(stroke
@@ -5622,16 +5497,6 @@
 			(type default)
 		)
 		(uuid "d8d83c9c-df5e-45df-a6ad-2837696b1a23")
-	)
-	(wire
-		(pts
-			(xy 161.29 52.07) (xy 154.94 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8fa5155-f530-4041-9e4d-5e8e5e76a0da")
 	)
 	(wire
 		(pts
@@ -5715,16 +5580,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 49.53) (xy 156.21 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e765be53-d0a0-428c-96aa-cbdf64d2ca08")
-	)
-	(wire
-		(pts
 			(xy 248.92 27.94) (xy 254 27.94)
 		)
 		(stroke
@@ -5762,16 +5617,6 @@
 			(type default)
 		)
 		(uuid "f31d01f7-5a9f-400b-bb7b-f1b61b995522")
-	)
-	(wire
-		(pts
-			(xy 154.94 52.07) (xy 154.94 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62efcf2-f474-45af-b0e3-e7c1fcccc983")
 	)
 	(wire
 		(pts
@@ -7418,12 +7263,12 @@
 		(at 153.67 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "331aa3f0-bc9c-4921-a3e6-0b07604bafd3")
 		(property "Reference" "J2"
-			(at 150.368 57.15 0)
+			(at 147.828 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom Footprints:SW_DIP_SPSTx01_Slide_9.78x3.7mm_W7.62mm_P2.54mm"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm"
 			(at 153.67 55.88 0)
 			(effects
 				(font
@@ -7484,7 +7329,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C18078237"
 			(at 153.67 55.88 0)
 			(effects
 				(font
@@ -7892,71 +7737,6 @@
 			(project "pi-zero-serial-hat"
 				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 161.29 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "4c0869c5-2f67-44d5-82ec-e945c2d5364d")
-		(property "Reference" "J5"
-			(at 163.068 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 160.655 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 161.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 161.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf9a0809-a64e-4fdc-8f61-a46f7bc70a59")
-		)
-		(instances
-			(project ""
-				(path "/86197b65-cdb8-4141-8c86-0c94c717a4aa"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11501,7 +11281,7 @@
 		(at 46.99 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -11774,7 +11554,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e5e9832e-1d34-45d7-ae2e-507674783c8c")
