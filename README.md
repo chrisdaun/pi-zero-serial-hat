@@ -23,6 +23,4 @@ You can use the files in the KiCAD/fabrication folder to have preassembled board
 You'll need to source a 40pin GPIO female header and a 3.5mm 4 position screw terminal and solder them on to complete the board.
 
 ![alt text](interface_v2.0.jpeg)
-![alt text](traces.png)
-![alt text](render_top.png)
-![alt text](render_bottom.png)
+![alt text](render_top_v2.1.png)
