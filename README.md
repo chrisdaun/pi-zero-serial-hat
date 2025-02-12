@@ -25,15 +25,16 @@ You'll need to source a 40pin GPIO female header and a 3.50mm 4 position screw t
 Links to the connectors on AliExpress
 
 - 40pin GPIO female header:
-  ![alt text](gpio.png)
+  <br>
   2x20P 2.54mm pitch
   <br>
   https://a.aliexpress.com/_mOcIEMF
+
 - 4 position screw terminal:
-  ![alt text](terminal.png)
+  <br>
   3.50mm pitch vertical or right angle
   <br>
   https://a.aliexpress.com/_m0hhCc7
-
+##
 ![alt text](interface_v2.0.jpeg)
 ![alt text](render_top_v2.1.png)
