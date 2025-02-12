@@ -20,7 +20,20 @@ I may offer premade boards in the future but for now:
 <br>
 You can use the files in the KiCAD/fabrication folder to have preassembled boards made at jlcpcb.com
 <br>
-You'll need to source a 40pin GPIO female header and a 3.5mm 4 position screw terminal and solder them on to complete the board.
+You'll need to source a 40pin GPIO female header and a 3.50mm 4 position screw terminal and solder them on to complete the board.
+<br>
+Links to the connectors on AliExpress
+
+- 40pin GPIO female header:
+  ![alt text](gpio.png)
+  2x20P 2.54mm pitch
+  <br>
+  https://a.aliexpress.com/_mOcIEMF
+- 4 position screw terminal:
+  ![alt text](terminal.png)
+  3.50mm pitch vertical or right angle
+  <br>
+  https://a.aliexpress.com/_m0hhCc7
 
 ![alt text](interface_v2.0.jpeg)
 ![alt text](render_top_v2.1.png)
