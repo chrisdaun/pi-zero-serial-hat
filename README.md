@@ -1,5 +1,7 @@
 # AqualinkD Interface Pi-HAT
 
+![alt text](v2.1_main.jpeg)
+
 ## What is it?
 
 A Raspberry Pi HAT compatible with Raspberry Pi and similar SBCs
@@ -29,12 +31,20 @@ Links to the connectors on AliExpress
   2x20P 2.54mm pitch
   <br>
   https://a.aliexpress.com/_mOcIEMF
+  <br>
+  ![alt text](gpio_small.jpeg)
 
 - 4 position screw terminal:
   <br>
   3.50mm pitch vertical or right angle
   <br>
   https://a.aliexpress.com/_m0hhCc7
+  <br>
+  ![alt text](terminal_small.jpeg)
+
 ##
-![alt text](interface_v2.0.jpeg)
-![alt text](render_top_v2.1.png)
+
+![alt text](v2.1_stack_top.jpeg)
+![alt text](v2.1_stack_side.jpeg)
+![alt text](v2.1_top.jpeg)
+![alt text](v2.1_bottom.jpeg)
