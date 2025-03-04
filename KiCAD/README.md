@@ -1,1 +1,0 @@
-# pi-zero-serial-hat
