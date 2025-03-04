@@ -1,5 +1,7 @@
 # AqualinkD Interface Pi-HAT
 
+![alt text](images/v2.1_main.jpeg)
+
 ## What is it?
 
 A Raspberry Pi HAT compatible with Raspberry Pi and similar SBCs
@@ -20,9 +22,29 @@ I may offer premade boards in the future but for now:
 <br>
 You can use the files in the KiCAD/fabrication folder to have preassembled boards made at jlcpcb.com
 <br>
-You'll need to source a 40pin GPIO female header and a 3.5mm 4 position screw terminal and solder them on to complete the board.
+You'll need to source a 40pin GPIO female header and a 3.50mm 4 position screw terminal and solder them on to complete the board.
+<br>
+Links to the connectors on AliExpress
 
-![alt text](interface_v2.0.jpeg)
-![alt text](traces.png)
-![alt text](render_top.png)
-![alt text](render_bottom.png)
+- 40pin GPIO female header:
+  <br>
+  2x20P 2.54mm pitch
+  <br>
+  https://a.aliexpress.com/_mOcIEMF
+  <br>
+  ![alt text](images/gpio_small.jpeg)
+
+- 4 position screw terminal:
+  <br>
+  3.50mm pitch vertical or right angle
+  <br>
+  https://a.aliexpress.com/_m0hhCc7
+  <br>
+  ![alt text](images/terminal_small.jpeg)
+
+##
+
+![alt text](images/v2.1_stack_top.jpeg)
+![alt text](images/v2.1_stack_side.jpeg)
+![alt text](images/v2.1_top.jpeg)
+![alt text](images/v2.1_bottom.jpeg)
