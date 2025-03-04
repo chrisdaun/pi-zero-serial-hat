@@ -6469,7 +6469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707083955945472"
 			(at 132.08 24.13 0)
 			(effects
 				(font
@@ -6487,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 132.08 24.13 0)
 			(effects
 				(font
@@ -6695,7 +6695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 158.75 127 0)
 			(effects
 				(font
@@ -6876,7 +6876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 233.68 59.69 0)
 			(effects
 				(font
@@ -6895,6 +6895,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25804"
+			(at 233.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 233.68 59.69 0)
 			(effects
 				(font
@@ -6982,6 +6991,15 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "100uF 6.3V 1.7Ω@100kHz ±10% CASE-B-3528-21(mm) Tantalum Capacitors ROHS"
+			(at 128.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95954ba2-6066-4ce4-81ab-5457efb69971")
 		)
@@ -7031,7 +7049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312"
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -7049,7 +7067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -7293,7 +7311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310171758_Bossie-BX-DS1-27-1PTP_C18078237.pdf"
 			(at 153.67 55.88 0)
 			(effects
 				(font
@@ -7311,7 +7329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "1 Digit SPST 24V Black 25mA 1000 Times Flat toggle, slotted SMD,P=1.27mm DIP Switches ROHS"
 			(at 153.67 55.88 0)
 			(effects
 				(font
@@ -7387,7 +7405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706189568917504"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -7405,7 +7423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 2kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -7483,7 +7501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
 			(at 106.68 176.53 0)
 			(effects
 				(font
@@ -7936,6 +7954,15 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "100uF 6.3V 1.7Ω@100kHz ±10% CASE-B-3528-21(mm) Tantalum Capacitors ROHS"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "353f9794-3cd3-4c29-ae1f-7d8ebb0bd424")
 		)
@@ -8055,7 +8082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706243143307264"
 			(at 158.75 143.51 0)
 			(effects
 				(font
@@ -8140,7 +8167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706251506339840"
 			(at 149.86 40.64 0)
 			(effects
 				(font
@@ -8158,7 +8185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 149.86 40.64 0)
 			(effects
 				(font
@@ -8234,7 +8261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707587489042432"
 			(at 62.23 181.61 0)
 			(effects
 				(font
@@ -8270,7 +8297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "40V Independent Type 550mV@5A 5A SMA(DO-214AC) Schottky Diodes ROHS"
 			(at 62.23 181.61 0)
 			(effects
 				(font
@@ -8346,7 +8373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312"
 			(at 114.3 91.44 0)
 			(effects
 				(font
@@ -8364,7 +8391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 114.3 91.44 0)
 			(effects
 				(font
@@ -8440,7 +8467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706172544782336"
 			(at 101.6 62.23 0)
 			(effects
 				(font
@@ -8458,7 +8485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 20Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 101.6 62.23 0)
 			(effects
 				(font
@@ -8604,7 +8631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579709121610121216"
 			(at 166.37 60.96 0)
 			(effects
 				(font
@@ -8640,7 +8667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "58.1A 600W 10.5V 6.45V 5.8V SMB(DO-214AA) ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 166.37 60.96 0)
 			(effects
 				(font
@@ -8834,7 +8861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706116978507776"
 			(at 149.86 49.53 0)
 			(effects
 				(font
@@ -8852,7 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 120Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 149.86 49.53 0)
 			(effects
 				(font
@@ -8930,7 +8957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8568525238768373760"
 			(at 46.99 125.73 0)
 			(effects
 				(font
@@ -8949,6 +8976,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C96446"
+			(at 46.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "25V 10uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 46.99 125.73 0)
 			(effects
 				(font
@@ -9303,7 +9339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706172544782336"
 			(at 101.6 41.91 0)
 			(effects
 				(font
@@ -9321,7 +9357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 20Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 101.6 41.91 0)
 			(effects
 				(font
@@ -9398,7 +9434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-Inc--Maxim-Integrated-MAX13487EESA-_C143342.pdf"
 			(at 125.73 52.07 0)
 			(effects
 				(font
@@ -9510,7 +9546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706265439817728"
 			(at 138.43 81.28 0)
 			(effects
 				(font
@@ -9528,7 +9564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 470Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 138.43 81.28 0)
 			(effects
 				(font
@@ -9817,7 +9853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707164920893440"
 			(at 92.71 119.38 0)
 			(effects
 				(font
@@ -9836,6 +9872,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C57112"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "50V 10nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 92.71 119.38 0)
 			(effects
 				(font
@@ -9895,7 +9940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312"
 			(at 114.3 176.53 0)
 			(effects
 				(font
@@ -9913,7 +9958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 114.3 176.53 0)
 			(effects
 				(font
@@ -10120,7 +10165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706251506339840"
 			(at 254 59.69 0)
 			(effects
 				(font
@@ -10138,7 +10183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 254 59.69 0)
 			(effects
 				(font
@@ -10477,6 +10522,15 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0ac679a-9c78-4871-8be5-06f361bbede9")
 		)
@@ -10547,7 +10601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
 			(at 119.38 24.13 0)
 			(effects
 				(font
@@ -10689,7 +10743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706251506339840"
 			(at 151.13 67.31 0)
 			(effects
 				(font
@@ -10707,7 +10761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 151.13 67.31 0)
 			(effects
 				(font
@@ -10786,7 +10840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101107_MDD-Microdiode-Semiconductor-SS34_C8678.pdf"
 			(at 102.87 124.46 0)
 			(effects
 				(font
@@ -10805,6 +10859,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C8678"
+			(at 102.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "40V Independent Type 3A 550mV@3A SMA(DO-214AC) Schottky Diodes ROHS"
 			(at 102.87 124.46 0)
 			(effects
 				(font
@@ -10864,7 +10927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706465275133952"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -10882,7 +10945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 10Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -10958,7 +11021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706251506339840"
 			(at 127 91.44 0)
 			(effects
 				(font
@@ -11053,7 +11116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Chilisin-Elec-SCDS125T-180M-N_C329749.pdf"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -11072,6 +11135,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C329749"
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "3A 18uH Shielded inductor ±20% SMD  Power Inductors ROHS"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -11132,7 +11204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579709121610121216"
 			(at 166.37 44.45 0)
 			(effects
 				(font
@@ -11168,7 +11240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "58.1A 600W 10.5V 6.45V 5.8V SMB(DO-214AA) ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 166.37 44.45 0)
 			(effects
 				(font
@@ -11749,7 +11821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706251506339840"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -11767,7 +11839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -11978,7 +12050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706465275133952"
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -11996,7 +12068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 10Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -12074,7 +12146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207011030_KNSCHA-RT100UF35V90RV0102_C3445235.pdf"
 			(at 36.83 125.73 0)
 			(effects
 				(font
@@ -12093,6 +12165,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C3445235"
+			(at 36.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100uF 35V 120mA@120Hz ±20% SMD,D6.3xL5.4mm  Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 36.83 125.73 0)
 			(effects
 				(font
