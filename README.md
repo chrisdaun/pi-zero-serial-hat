@@ -1,6 +1,6 @@
 # AqualinkD Interface Pi-HAT
 
-![alt text](v2.1_main.jpeg)
+![alt text](images/v2.1_main.jpeg)
 
 ## What is it?
 
@@ -32,7 +32,7 @@ Links to the connectors on AliExpress
   <br>
   https://a.aliexpress.com/_mOcIEMF
   <br>
-  ![alt text](gpio_small.jpeg)
+  ![alt text](images/gpio_small.jpeg)
 
 - 4 position screw terminal:
   <br>
@@ -40,11 +40,11 @@ Links to the connectors on AliExpress
   <br>
   https://a.aliexpress.com/_m0hhCc7
   <br>
-  ![alt text](terminal_small.jpeg)
+  ![alt text](images/terminal_small.jpeg)
 
 ##
 
-![alt text](v2.1_stack_top.jpeg)
-![alt text](v2.1_stack_side.jpeg)
-![alt text](v2.1_top.jpeg)
-![alt text](v2.1_bottom.jpeg)
+![alt text](images/v2.1_stack_top.jpeg)
+![alt text](images/v2.1_stack_side.jpeg)
+![alt text](images/v2.1_top.jpeg)
+![alt text](images/v2.1_bottom.jpeg)
