@@ -22,10 +22,12 @@ It is purpose built for use with [AqualinkD](https://github.com/sfeakes/Aqualink
 
 **Note for DIY #1**: Due to the way some components are oriented in jlcpcb's component reels, you may need to adjust the component rotation at the interactive board review stage when ordering. You may need to rotate the part at this point until the part's pin 1 designator lines up with the pin 1 designator on the board. This seems to be most common with the following components:
 
-  - U1 - Usually needs to be rotated 90 deg. clockwise
-  - Q1, Q2 and Q3 - Usually needs to be rotated 180 deg.
-  - J2 - This component is a switch and can be rotated 90 deg. either way if needed
- 
+- U1 - Usually needs to be rotated 90 deg. clockwise
+- Q1, Q2 and Q3 - Usually needs to be rotated 180 deg.
+- J2 - This component is a switch and can be rotated 90 deg. either way if needed
+- Use the image below for correct component orientations
+  [<img width="600" alt="Image" src="images/layout.png" />](images/layout.png)
+
 **Note for DIY #2**: You'll need to source a 40pin GPIO female header and a 3.50mm 4 position screw terminal and solder them on to complete the board.
 
 - [40pin GPIO female header - 2x20P 2.54mm pitch](https://a.aliexpress.com/_mOcIEMF)
@@ -56,6 +58,7 @@ It is purpose built for use with [AqualinkD](https://github.com/sfeakes/Aqualink
 10. Set the serial_port variable to use Serial0: `serial_port=/dev/ttyS0`
 
 #### Troubleshooting:
+
 1. You may need to adjust the rs485_frame_delay variable in /etc/aqualinkd.conf. This was not required for my setup but one user reported he needed to set: `rs485_frame_delay=10`
 
 ### Raspberry Pis running other OSs/Other Single Board Computers
