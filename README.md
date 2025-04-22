@@ -26,9 +26,14 @@ It is purpose built for use with [AqualinkD](https://github.com/sfeakes/Aqualink
 - Q1, Q2 and Q3 - Usually needs to be rotated 180 deg.
 - J2 - This component is a switch and can be rotated 90 deg. either way if needed
 - Use the image below for correct component orientations
-  [<img width="600" alt="Image" src="images/layout.png" />](images/layout.png)
+  <br>[<img width="600" alt="Image" src="images/layout.png" />](images/layout.png)
 
-**Note for DIY #2**: You'll need to source a 40pin GPIO female header and a 3.50mm 4 position screw terminal and solder them on to complete the board.
+**Note for DIY #2**: Check to see if there are any pcb assembly coupons at [jlcpcb's coupon center](https://jlcpcb.com/coupon-center).
+
+- Add the coupon to your [My coupons](https://jlcpcb.com/user-center/payments/coupon/) and use it at checkout.
+  <br><img width="300" alt="Image" src="images/coupon.png" />
+
+**Note for DIY #3**: You'll need to source a 40pin GPIO female header and a 3.50mm 4 position screw terminal and solder them on to complete the board.
 
 - [40pin GPIO female header - 2x20P 2.54mm pitch](https://a.aliexpress.com/_mOcIEMF)
   <br>
