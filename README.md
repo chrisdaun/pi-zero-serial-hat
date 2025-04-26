@@ -18,34 +18,8 @@ It is purpose built for use with [AqualinkD](https://github.com/sfeakes/Aqualink
 ## Where can I get one?
 
 1. Premade boards may available, reach out for more info
-2. DIY - The files in the KiCAD/fabrication folder can be used without modification to have boards with all the surface mount components fabricated at [JLCPCB](https://jlcpcb.com/)
-
-**Note for DIY #1**: Due to the way some components are oriented in jlcpcb's component reels, you may need to adjust the component rotation at the interactive board review stage when ordering. You may need to rotate the part at this point until the part's pin 1 designator lines up with the pin 1 designator on the board. This seems to be most common with the following components:
-
-- U1 - Usually needs to be rotated 90 deg. clockwise
-- Q1, Q2 and Q3 - Usually needs to be rotated 180 deg.
-- J2 - This component is a switch and can be rotated 90 deg. either way if needed
-- Use the image below for correct component orientations
-  <br>[<img width="600" alt="Image" src="images/layout.png" />](images/layout.png)
-
-**Note for DIY #2**: Check to see if there are any pcb assembly coupons at [jlcpcb's coupon center](https://jlcpcb.com/coupon-center).
-
-- Add the coupon to your [My coupons](https://jlcpcb.com/user-center/payments/coupon/) and use it at checkout.
-  <br><img width="300" alt="Image" src="images/coupon.png" />
-
-**Note for DIY #3**: You'll need to source a 40pin GPIO female header and a 3.50mm 4 position screw terminal and solder them on to complete the board.
-
-- [40pin GPIO female header - 2x20P 2.54mm pitch](https://a.aliexpress.com/_mOcIEMF)
-  <br>
-  **^Link above is for a quantity of 10 connectors, double check the quantity and don't order more connectors then you need!**
-  <br>
-  ![alt text](images/gpio_small.jpeg)
-
-- [4 position screw terminal - 3.50mm pitch vertical or right angle](https://a.aliexpress.com/_m0hhCc7)
-  <br>
-  **^Link above is for a quantity of 5 connectors, double check the quantity and don't order more connectors then you need!**
-  <br>
-  ![alt text](images/terminal_small.jpeg)
+2. DIY - Follow the instructions on the [DIY_JLCPCB.md](/DIY_JLCPCB.md) page
+   <br>**(Read the update on the top of the linked page about tariff impacts to USA)**
 
 ## Software Setup
 
