@@ -17,7 +17,7 @@ It is purpose built for use with [AqualinkD](https://github.com/sfeakes/Aqualink
 
 ## Where can I get one?
 
-1. Premade boards may available, reach out for more info
+1. [Pricing and availability for prebuilt boards can be found here](https://aqualinkd.github.io/purchase/)
 2. DIY - Follow the instructions on the [DIY_JLCPCB.md](/DIY_JLCPCB.md) page
    <br>**(Read the update on the top of the linked page about tariff impacts to USA)**
 
@@ -42,7 +42,8 @@ It is purpose built for use with [AqualinkD](https://github.com/sfeakes/Aqualink
 
 ### Raspberry Pis running other OSs/Other Single Board Computers
 
-Some SBCs like the [Orange Pi Zero 2W](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-2W.html) and similar have the debug serial console enabled on GPIO pins 8/10 in their images. Serial communication will not work in this configuration and the debug serial console needs to be disabled. This is usually not trivial a varies by SBC so I won't provide guidance on how to do it here.
+- Some SBCs like the [Radxa Zero 3W](https://radxa.com/products/zeros/zero3w/), [Orange Pi Zero 2W](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-2W.html) and similar have the debug serial console enabled on GPIO pins 8/10 in their images. Serial communication will not work in this configuration and the debug serial console needs to be disabled
+- [The Radxa Zero 3W board is supported with detailed instructions here](https://github.com/aqualinkd/AqualinkD-Radxa-zero3)
 
 ##
 
